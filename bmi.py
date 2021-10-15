@@ -23,4 +23,3 @@ elif ( bmi >= 24.9 and bmi < 30):
 elif ( bmi >=30):
     print("Suffering from Obesity")
     
-    

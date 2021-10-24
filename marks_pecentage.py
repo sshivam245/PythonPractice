@@ -1,8 +1,8 @@
-maths = float(input("what is your maths score?"))
-chemistry = float(input("what is your chemistry score?"))
-biology= float(input("what is your biology score?"))
-physics= float(input("what is your physics score?"))
-computer = float(input("what is your computer score?"))
+maths = float(input("what is your maths score?  "))
+chemistry = float(input("what is your chemistry score?  "))
+biology= float(input("what is your biology score?  "))
+physics= float(input("what is your physics score?  "))
+computer = float(input("what is your computer score?  "))
 
 total = maths + chemistry + biology + physics + computer
 print (f"your total marks are: {total} ")

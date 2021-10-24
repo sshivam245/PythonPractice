@@ -1,5 +1,5 @@
-P = 20000
-R = 12
-T = 12
+P = float(input("what is the amount of P: "))
+R = float(input("what is the amount of R: "))
+T = float(input("what is the amount of T: "))
 Simple_interest = (P * R * T) / 100
 print("The simple interest is:", Simple_interest)

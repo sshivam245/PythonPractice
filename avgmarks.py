@@ -1,10 +1,10 @@
-english_marks = 99
-ip_marks = 99
-eco_marks = 98
-maths_marks = 95
-polsci_marks = 95
+english_marks = float(input("how much marks did you get in english:  "))
+ip_marks = float(input("how much marks did you get in ip:  "))
+eco_marks = float(input("how much marks did you get eco:  "))
+maths_marks = float(input("how much marks did you get maths:  "))
+polsci_marks = float(input("how much marks did you get polsci:  "))
 
 sum = english_marks + ip_marks + eco_marks + maths_marks + polsci_marks 
 
 avg = sum/5
-print(avg)
+print(f"your avg is:  {avg}")

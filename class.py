@@ -110,19 +110,19 @@
 
 # constructor 
 
-class person:
-  def __init__(self , s , h , i ):
-    self.name = s
-    self.age = h
-    self.phone = i
+#class person:
+ # def __init__(self , s , h , i ):
+  #  self.name = s
+   # self.age = h
+    #self.phone = i
 
-  def hellofunc(self):
-    print("hello my name is " + self.name)  
-    print("my age is" + (self.age))
-    print("my phone is"+ (self.phone))
+  #def hellofunc(self):
+   # print("hello my name is " + self.name)  
+    #print("my age is" + (self.age))
+    #print("my phone is"+ (self.phone))
     
-p1=person("shivam","19","9958479002")
-p1.hellofunc()
+#p1=person("shivam","19","9958479002")
+#p1.hellofunc()
 
 
 #class manager:
@@ -139,4 +139,69 @@ p1.hellofunc()
 #emp2.displayM()
 
 
+#class animal:
+  #def __init__(self):
+   # print("\n\n\n Animal constructor")
+  #def speak(self):
+   # print("\tamimal speaking")
+
+#class dog(animal):
+ # def __init__(self):
+  #  print("dog constructor")
+  #def bark(self):
+   # print("\t\tdog barking")
+
+#class cat(animal):
+  #def __init__(self):
+ #   print("cat constructor")
+  #def sing(self):
+   # print("\t\tcat singing")
+
+#class dogchild(dog):
+ # def __init__(self):
+  #  print("dog child constructour ")
+  #def eat(self):
+   # print("\t\t\tdog child eating")
+
+#q=animal()
+#p=dog()
+#a=dogchild()
+#a.eat()
+#a.bark()
+#a.speak()
+
+
+
+#class ht:
+ # def __init__(self,ft,inc):
+  #  print("height constrictor")
+   # self.feet=ft
+    #self.inch=inc
+  
+  #def input(self,ft,inc):
+   # print("input function")
+    #self.feet=ft
+    #self.inch=inc
+
+  #def output(self):
+   # print("output function")
+    #print(self.frt,self.inch)
+
+#print("hi")
+#c=ht(6,5)
+#c.output()
+#c.input(5,8)
+#c.output
+
+
+list=[]
+for i in  range(0,5):
+  a=int(input("enter a num: "))
+  list.append(a)
+
+print("the sum is", sum(list))
+
+list.insert(4,9)
+print(list)
+  
 

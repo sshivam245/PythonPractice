@@ -194,14 +194,23 @@
 #c.output
 
 
-list=[]
-for i in  range(0,5):
-  a=int(input("enter a num: "))
-  list.append(a)
+#list=[]
+#for i in  range(0,5):
+ # a=int(input("enter a num: "))
+  #list.append(a)
 
-print("the sum is", sum(list))
+#print("the sum is", sum(list))
 
-list.insert(4,9)
-print(list)
-  
+#list.insert(4,9)
+#print(list)
+
+# make a program from 1 to 20 
+
+#i = 1
+#while 1<20:
+  #print(i)
+ # if i == 13:
+  #  break
+  #print(i, end=",")
+  #i+=1
 

@@ -9,4 +9,4 @@ if color not in valid_colors:
 ascii_art = pyfiglet.figlet_format(art)
 colored_ascii= colored(ascii_art, color=color)
 print(colored_ascii)
- 
+   
